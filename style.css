@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+br{
+    height: 1vh;
+}
+
+footer{
+    font-family: 'Roboto', sans-serif;
+    background-color: #2B2B2B;
+    color: white;
+    padding: 20px;
+}
+
+
+.fristSecton{
+    display: flex;
+}
+.leftSection{
+    font-size: 2rem;
+    padding: 20px 20px;
+
+}
+.rightSection{
+    
+    font-size: 1rem;
+    padding: 20px 20px;
+}
+
+
+.footer-section .follow,
+.footer-section .products,
+.footer-section .use-class,
+.footer-section .company,
+.footer-section .contact {
+  flex: 1;
+  padding: 2px 10px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+hr{
+    color: white ;
+    height: 0.5vh;
+    background-color: white;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li{
+    padding: 2px 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .footer-section {
+      flex-direction: column;
+    }
+
+    .footer-section div {
+      flex: 1;
+      width: 100%;
+    }
+  }
